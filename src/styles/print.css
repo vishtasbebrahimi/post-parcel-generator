@@ -1,0 +1,8 @@
+
+@page { size: 100mm 150mm; margin: 0; }
+@media print {
+  body { margin: 0; }
+  .no-print { display: none !important; }
+  .label-sheet { width: 100mm; height: 150mm; padding: 4mm; }
+  .label-card { box-shadow: none !important; border: none !important; }
+}
